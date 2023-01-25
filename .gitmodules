@@ -1,0 +1,12 @@
+[submodule "crispy_shifty/hashed_loop"]
+	path = crispy_shifty/hashed_loop
+	url = git@github.com:dmitropher/hashed_loop.git
+[submodule "proteinmpnn"]
+	path = proteinmpnn
+	url = https://git.ipd.uw.edu/justas/proteinmpnn.git
+[submodule "superfold"]
+	path = superfold
+	url = git@github.com:rdkibler/superfold.git
+[submodule "proteininpainting"]
+	path = proteininpainting
+	url = https://git.ipd.uw.edu/jwatson3/proteininpainting
