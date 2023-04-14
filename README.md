@@ -13,22 +13,22 @@ Notebooks 0-2 in `./notebooks`
 02_make_states.ipynb: Generates the alternative backbone conformations for the hinges  using the alignment based docking approach shown in Figure 1.
 
 Notebooks 0-8 in `./projects/crispy_shifties`
-00_design_bound_states.ipynb: One-state design of the alternative conformations generated in the previous notebook. 
-01_loop_bound_states.ipynb: Loop closure between the hinge domains to make state Y.
-02_mpnn_bound_states.ipynb: One state MPNN design of state Y -peptide complexes.
-03_fold_bound_states.ipynb: AF2-IG of the complexes generated in the previous step.
-04_pair_bound_states.ipynb: Relooping of parent scaffolds to match exactly the secondary structure of the hinge in state Y, generating state X and Y pair.
-05_design_paired_states.ipynb: Rosetta MSD of the paired state X and state Y.
-06_mpnn_paired_states.ipynb: MPNN-MSD of the paired state X and state Y.
-07_fold_paired_states_Y.ipynb: AF2-IG of the designs in state Y.
-08_fold_paired_states_X.ipynb: AF2 of the designs in state X.
-09_filter_and_order.ipynb: Rosetta filtering and ordering as performed for cs200-cs223.
-09_resurface_filter.ipynb: Rosetta filtering and effector peptide resurfacing as performed for cs224-295.
-10_analyze_and_order.ipynb: Filtering and ordering as performed for cs224-cs295.
-11_make_extensions.ipynb: Generate extended versions of hinges for FRET constructs. 
+* 00_design_bound_states.ipynb: One-state design of the alternative conformations generated in the previous notebook. 
+* 01_loop_bound_states.ipynb: Loop closure between the hinge domains to make state Y.
+* 02_mpnn_bound_states.ipynb: One state MPNN design of state Y -peptide complexes.
+* 03_fold_bound_states.ipynb: AF2-IG of the complexes generated in the previous step.
+* 04_pair_bound_states.ipynb: Relooping of parent scaffolds to match exactly the secondary structure of the hinge in state Y, generating state X and Y pair.
+* 05_design_paired_states.ipynb: Rosetta MSD of the paired state X and state Y.
+* 06_mpnn_paired_states.ipynb: MPNN-MSD of the paired state X and state Y.
+* 07_fold_paired_states_Y.ipynb: AF2-IG of the designs in state Y.
+* 08_fold_paired_states_X.ipynb: AF2 of the designs in state X.
+* 09_filter_and_order.ipynb: Rosetta filtering and ordering as performed for cs200-cs223.
+* 09_resurface_filter.ipynb: Rosetta filtering and effector peptide resurfacing as performed for cs224-295.
+* 10_analyze_and_order.ipynb: Filtering and ordering as performed for cs224-cs295.
+* 11_make_extensions.ipynb: Generate extended versions of hinges for FRET constructs. 
 
 Notebooks 0-4 in `./projects/DAB` were run in order to make 3hbs.
-01_inpaint_structure.ipynb: Add additional helices to peptide effectors.
-02_mpnn_inpaints.ipynb: MPNN design of the 3hb effector bound to state Y hinge. 
-03_fold_complex.ipynb: AF2-IG of the hinge + 3hb effector complex. 
-04_fold_monomer.ipynb: AF2 of the 3hbs alone. 
+* 01_inpaint_structure.ipynb: Add additional helices to peptide effectors.
+* 02_mpnn_inpaints.ipynb: MPNN design of the 3hb effector bound to state Y hinge. 
+* 03_fold_complex.ipynb: AF2-IG of the hinge + 3hb effector complex. 
+* 04_fold_monomer.ipynb: AF2 of the 3hbs alone. 
