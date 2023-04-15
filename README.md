@@ -8,9 +8,9 @@ The design pipeline described in this work consists of the notebooks described b
 The following are jupyter notebooks in the order they were run and a short description.
 
 Notebooks 0-2 in `./notebooks`
-00_filter_scaffold_sets.ipynb: Selects subsets of input scaffolds based on computational metrics.
-01_prep_inputs.ipynb:  Collects additional metadata and "domesticates" the scaffolds  by removing disulfides and terminal unstructured regions. 
-02_make_states.ipynb: Generates the alternative backbone conformations for the hinges  using the alignment based docking approach shown in Figure 1.
+* 00_filter_scaffold_sets.ipynb: Selects subsets of input scaffolds based on computational metrics.
+* 01_prep_inputs.ipynb:  Collects additional metadata and "domesticates" the scaffolds  by removing disulfides and terminal unstructured regions. 
+* 02_make_states.ipynb: Generates the alternative backbone conformations for the hinges  using the alignment based docking approach shown in Figure 1.
 
 Notebooks 0-8 in `./projects/crispy_shifties`
 * 00_design_bound_states.ipynb: One-state design of the alternative conformations generated in the previous notebook. 
