@@ -35,4 +35,4 @@ Notebooks 0-4 in `./projects/DAB` were run in order to make 3hbs.
 
 
 1. T. J. Brunette, F. Parmeggiani, P.-S. Huang, G. Bhabha, D. C. Ekiert, S. E. Tsutakawa, G. L. Hura, J. A. Tainer, D. Baker, Exploring the repeat protein universe through computational protein design. Nature. 528, 580–584 (2015).
-2.T. J. Brunette, M. J. Bick, J. M. Hansen, C. M. Chow, J. M. Kollman, D. Baker, Modular repeat protein sculpting using rigid helical junctions. Proc. Natl. Acad. Sci. U. S. A. 117, 8870–8875 (2020).
+2. T. J. Brunette, M. J. Bick, J. M. Hansen, C. M. Chow, J. M. Kollman, D. Baker, Modular repeat protein sculpting using rigid helical junctions. Proc. Natl. Acad. Sci. U. S. A. 117, 8870–8875 (2020).
