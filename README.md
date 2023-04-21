@@ -3,7 +3,7 @@
 Included environments are tested on Ubuntu 20.04
 The majority of notebooks and many util scripts are intended to be run on computational resources used for this work, such as our own HPC cluster and NERSC perlmutter. It is likely possible to modify the scripts to work on any cluster with a SLURM scheduler, and intended to be straightforward to do so.
 
-The design pipeline described in this work consists of the notebooks described below run in order. Input scaffolds for the first notebook are from references(22, 23) and are available upon reasonable request. All subsequent notebooks take a list of input designs, and map them through a design or analysis function, then gather and analyze the data and select a subset to make a list for the next notebook. Generally, the function name and path in the codebase can be inferred from the `distribute_func` parameter in the notebook cell that runs `gen_array_tasks`.
+The design pipeline described in this work consists of the notebooks described below run in order. Input scaffolds for the first notebook are from references(1, 2) and are available upon reasonable request. All subsequent notebooks take a list of input designs, and map them through a design or analysis function, then gather and analyze the data and select a subset to make a list for the next notebook. Generally, the function name and path in the codebase can be inferred from the `distribute_func` parameter in the notebook cell that runs `gen_array_tasks`.
 
 The following are jupyter notebooks in the order they were run and a short description.
 
@@ -32,3 +32,7 @@ Notebooks 0-4 in `./projects/DAB` were run in order to make 3hbs.
 * 02_mpnn_inpaints.ipynb: MPNN design of the 3hb effector bound to state Y hinge. 
 * 03_fold_complex.ipynb: AF2-IG of the hinge + 3hb effector complex. 
 * 04_fold_monomer.ipynb: AF2 of the 3hbs alone. 
+
+
+1. T. J. Brunette, F. Parmeggiani, P.-S. Huang, G. Bhabha, D. C. Ekiert, S. E. Tsutakawa, G. L. Hura, J. A. Tainer, D. Baker, Exploring the repeat protein universe through computational protein design. Nature. 528, 580–584 (2015).
+2.T. J. Brunette, M. J. Bick, J. M. Hansen, C. M. Chow, J. M. Kollman, D. Baker, Modular repeat protein sculpting using rigid helical junctions. Proc. Natl. Acad. Sci. U. S. A. 117, 8870–8875 (2020).
